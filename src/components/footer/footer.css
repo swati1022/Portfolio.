@@ -1,0 +1,16 @@
+.footer {
+  border-top: 1px solid #7865ff;
+  padding-top: 20px;
+}
+
+.footer p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width:992px){
+  section{
+    padding: 40px 0px;
+    
+  }
+}

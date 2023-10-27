@@ -1,0 +1,36 @@
+table {
+  border: none;
+  border-collapse: collapse;
+  border: 1px solid #132347;
+  border-radius: 5px;
+}
+
+th,
+td {
+  padding: 1.6rem 0.5rem !important;
+  font-size: 1rem;
+}
+
+.theading,
+td {
+  background: #7865ff;
+  color: #fff;
+}
+
+td {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+tr:nth-child(even) {
+  background: #102048;
+}
+
+@media only screen and (max-width:992px){
+  th,td{
+    font-size: .7rem;
+    padding: 0.8rem;
+    
+  }
+}
